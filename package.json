@@ -1,0 +1,50 @@
+{
+    "name": "mac-os-monterey",
+    "version": "0.0.2",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "serve": "vite preview",
+        "lint:prettier": "prettier --write . --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "date-fns": "^2.26.0",
+        "popmotion": "^11.0.0",
+        "sass": "^1.43.4",
+        "svelte": "^3.44.2",
+        "svelte-drag": "^2.2.1",
+        "svelte-local-storage-store": "^0.2.6",
+        "typescript": "^4.5.2",
+        "vite": "2.6.14"
+    },
+    "devDependencies": {
+        "@iconify-json/gg": "^1.0.1",
+        "@iconify-json/ic": "^1.0.5",
+        "@iconify-json/icon-park-outline": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.10",
+        "@iconify-json/ph": "^1.0.2",
+        "@iconify-json/uil": "^1.0.2",
+        "@rollup/plugin-replace": "^3.0.0",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.3.11",
+        "prettier": "^2.4.1",
+        "prettier-plugin-svelte": "^2.5.0",
+        "rollup": "^2.60.1",
+        "svelte-preprocess": "^4.9.8",
+        "unplugin-icons": "^0.12.18",
+        "vite-plugin-pwa": "^0.11.6"
+    },
+    "prettier": {
+        "semi": false,
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "tabWidth": 4,
+        "useTabs": false,
+        "trailingComma": "es5",
+        "bracketSpacing": true
+    },
+    "packageManager": "yarn@3.1.0"
+}
